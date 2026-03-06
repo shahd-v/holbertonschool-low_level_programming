@@ -1,4 +1,4 @@
-#include <stdio main.h>
+#include "main.h"
 
 /* _is digit will check if c is a digit between 0 and 9 */
 
