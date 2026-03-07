@@ -3,24 +3,22 @@
 /**
  * print_square - prints a square using the '#' character
  * @size: size of the square
- *
- * If size is 0 or less, only a newline is printed
  */
 void print_square(int size)
 {
-    int i, j;
+    int i, j; /* 1 indentation level inside function */
 
     if (size <= 0)
     {
-        _putchar('\n');
+        _putchar('\n'); /* 2 indentation levels inside function block */
         return;
     }
 
-    for (i = 0; i < size; i++) /* iterate through rows */
+    for (i = 0; i < size; i++) /* 1 indentation level inside function */
     {
-        for (j = 0; j < size; j++) /* iterate through columns */
-            _putchar('#');
+        for (j = 0; j < size; j++) /* 2 indentation levels inside loop */
+            _putchar('#'); /* 3 indentation levels inside inner loop */
 
-        _putchar('\n'); /* move to next line after each row */
+        _putchar('\n'); /* 2 indentation levels inside outer loop */
     }
 }
