@@ -4,7 +4,7 @@
  * print_triangle - prints a right-aligned triangle of size `size`
  * @size: the height and base width of the triangle
  *
- * Description: prints a triangle using '#' characters. 
+ * Description: prints a triangle using '#' characters
  *              Each row ends with a newline. If size <= 0,
  *              prints only a newline.
  */
