@@ -14,8 +14,8 @@ char *cap_string(char *str)
 
 	while (str[i] != '\0')
 	{
-		/* Capitalize if it's a lowercase letter AND either first char
-		   or comes after a separator */
+
+
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			if (i == 0 ||
